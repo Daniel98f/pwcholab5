@@ -1,3 +1,3 @@
-FROM ubuntu
+FROM bitnami/apache
 RUN ls
-RUN echo "hello ubuntu"
+RUN echo "hello apache"
